@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tic Tac Toe - Teal Theme</title>
+  </head>
+  <body>
+    <header>
+      <h2>Tic Tac Toe – Fun Time! 😄</h2>
+    </header>
+
+    <main>
+      <div class="game-container">
+        <h1>Tic Tac Toe</h1>
+        <div class="scores">
+          <div>Player X<br /><span id="scoreX">0</span></div>
+          <div>Draw<br /><span id="scoreDraw">0</span></div>
+          <div>Player O<br /><span id="scoreO">0</span></div>
+        </div>
+
+        <div class="mode-toggle">
+          <button id="twoPlayer" class="active">2 Players 👥</button>
+          <button id="vsComputer">VS Computer 🤖</button>
+        </div>
+
+        <div class="board" id="board"></div>
+        <div class="info" id="info">Player X's turn</div>
+        <div class="controls">
+          <button id="resetBoard">Reset Board</button>
+          <button id="newGame">New Game</button>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      style="
+        background-color: #20948b;
+        color: #edf4f2;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 20px;
+      "
+    >
+      <h5 style="margin-bottom: 5px; font-size: 1.1em">
+        © 2025 Tic Tac Toe Game | Designed by Harsh Rakeshkumar Champaneri
+      </h5>
+      <p style="margin-bottom: 10px">Connect with me on:</p>
+      <div>
+        <a
+          href="https://www.instagram.com/harsh.champ2005?igsh=MWpvYnZjcGZidDhlcw=="
+          target="_blank"
+          class="social-icon"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/harsh-rakeshkumar-champaneri-a04523315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          class="social-icon"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/"
+          target="_blank"
+          class="social-icon"
+          ><i class="fab fa-github"></i></a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=cs.230840131014@gmail.com"
+          target="_blank"
+          class="social-icon"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+      <!-- <p style="margin-top: 10px; font-size: 0.9em;">© 2025 Tic Tac Toe Game | Designed by Harsh Champaneri</p> -->
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
